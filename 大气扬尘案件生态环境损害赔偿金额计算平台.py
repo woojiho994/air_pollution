@@ -67,8 +67,8 @@ with col1:
     emission_factor_eh = zhuangxie_lidu_multiplier * 0.0016 * (wind_speed_gd/2.2)**1.3/(water/100/2)**1.4 * (1-0) 
     # st.markdown(f"E_h = {{zhuangxie_lidu_multiplier:.2f} \cdot 0.0016 \cdot \frac{{\left( \frac{{{wind_speed_gd:.2f}}}{{2.2}} \right)^{{1.3}}}}{{\left( \frac{{{water:.2f}} / 100}}{{2}} \right)^{{1.4}}}} \cdot (1 - 0)""")
     st.markdown(f"- 装卸、运输物料过程扬尘排放系数 $E_h = {emission_factor_eh:.6f} \ \t{{kg/t}}$")
-    st.image(r"C:\Users\wooji\Documents\WPSDrive\329775283\WPS云盘\1-损害鉴定项目\【2024.11.27】满洲里简易评估\表10 装卸过程中产生的颗粒物粒度乘数.png")
-    st.image(r"C:\Users\wooji\Documents\WPSDrive\329775283\WPS云盘\1-损害鉴定项目\【2024.11.27】满洲里简易评估\表11 各种行业堆场物料的含水率参考值.png")
+    st.image(r"表10 装卸过程中产生的颗粒物粒度乘数.png")
+    st.image(r"表11 各种行业堆场物料的含水率参考值.png")
     
     #%%
     st.markdown("### 装卸、运输物料过程排放量")
@@ -136,7 +136,7 @@ with col2:
         wind_speed = st.number_input("请输入风速 (m/s)", value=5.0, min_value=0.0, step=0.1)
     with inner_col4:
         threshold_friction_velocity = st.number_input("请输入阈值摩擦风速 (m/s)", value=0.45, min_value=0.0, step=0.1)
-    st.image(r"C:\Users\wooji\Documents\WPSDrive\329775283\WPS云盘\1-损害鉴定项目\【2024.11.27】满洲里简易评估\表15 阈值摩擦风速参考值.png")
+    st.image(r"表15 阈值摩擦风速参考值.png")
     
     
     options_loc = ['城市', '郊区']
